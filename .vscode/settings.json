@@ -1,5 +1,6 @@
 {
     "editor.fontSize": 18,
     "window.zoomLevel": 0.55,
-    "editor.mouseWheelZoom": true
+    "editor.mouseWheelZoom": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
