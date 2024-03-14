@@ -13,7 +13,8 @@ export class CountriesService {
     let result: Observable<Country[]> = this.httpClient
       .get<Country[]>(url)
       .pipe(
-        catchError(() => of([]))
+        catchError(() => of([])),
+        delay(400)
       );
 
     return result;
