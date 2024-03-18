@@ -7,6 +7,7 @@ import { CountryPageComponent } from './pages/country-page/country-page.componen
 import { CountriesRoutingModule } from './countries-routing.module';
 import { SharedModule } from '../shared/shared.module';
 import { CountryTableComponent } from './components/countryTable/countryTable.component';
+import { SearchBoxComponent } from '../shared/Components/searchBox/searchBox.component';
 
 @NgModule({
   declarations: [
